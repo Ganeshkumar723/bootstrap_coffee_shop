@@ -1,0 +1,50 @@
+body {
+  font-family:var(--ffPrimary);
+  background-color: var(--tertiaryColor);
+  color: var(--secondaryColor);
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+:root {
+  --primaryColor: #97682f;
+  --secondaryColor: #000000;
+  --tertiaryColor: #ffffff;
+  --ffPrimary: "Inter", sans-serif;
+  --ffSecondary: "Roboto", sans-serif;
+  --ffTertiary: "Merienda", cursive;
+
+}
+h1,h2 {
+  font-family: var(--ffTertiary);
+}
+h3,h4 {
+  font-family: var(--ffSecondary);
+}
+p {
+  font-family: var(--ffPrimary);
+}
+.heroSection {
+  background: url('assets/images/hero-section.jpeg') center center / cover no-repeat ;
+  min-height: 100vh;
+}
+.text-brown{
+  color: var(--primaryColor);
+}
+.bg-icon{
+  background-color:var(--primaryColor);
+}
+.btn-icon{
+  background-color:var(--primaryColor);
+  color: var(--tertiaryColor);
+}
+.btn-icon:hover{
+  background-color:var(--secondaryColor);
+  color: var(--tertiaryColor);
+}
+
+

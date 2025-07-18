@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merienda:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--project title-->
+    <title>Coffee Shop</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <!--bootstrap 5 cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!--css file-->
+    <link rel="stylesheet" href="style.css">
+    <!--fontawesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+
+                <a class="navbar-brand" href="#"><img src="./assets/images/logo.jpeg" alt="Company Logo"
+                        height="50"></a>
+                <!-- Mobile Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-5" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 " href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="#Menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="#Gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="#Team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="heroSection py-5 d-flex align-items-center " id="Home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 text-center">
+                        <h1 class="display-1 fw-bold mb-3">Coffee Heaven</h1>
+                        <p class="lead mb-4">Welcome to Café - where every sip tells a story and every cup feels like
+                            home.</p>
+                        <a href="#" class="btn btn-icon btn-lg mx-auto">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main><!--parentContainer-->
+        <section class="aboutSection py-5 bg-white" id="About">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0"> <!--column1 -->
+                        <img src="assets/images/about.jpeg" alt="About Us" class="img-fluid">
+                    </div>
+                    <div class="col-md-6"> <!-- column2 -->
+                        <h2 class="fw-bold mb-3 display-5 ">A Cup Of Coffee Can Complete Your Day</h2>
+                        <p class="lead text-muted fw-normal fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Pariatur, esse
+                            corrupti. Incidunt fuga sit numquam est consequatur provident ipsa quidem! Lorem
+                        </p>
+                        <a href="#" class="btn btn-icon btn-lg mt-3">Our Menu</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="OurFacility py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4 text-center">
+                        <figure>
+                            <img src="./assets/images/heading-img.jpeg" class="img-fluid" alt="heading logo">
+                        </figure>
+                        <h2 class="fw-bold display-6">our Facility</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+                        <img src="./assets/images/facility-1.jpeg" class="img-fluid w-50 mb-3" alt="Varieties Of Coffee">
+                        <h3 class="fs-3">Varieties Of Coffee</h3>
+                        <p class="lead text-muted fw-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+                            <img src="./assets/images/facility-2.jpeg" class="img-fluid w-50 mb-3" alt="Coffee Beans">
+                                <h3 class="fs-3">Coffee Beans</h3>
+                                <p class="lead text-muted fw-normal">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+                            <img src="./assets/images/facility-3.jpeg" class="img-fluid w-50 mb-3" alt="Breakfast And Sweets">
+                                <h3 class="fs-3">Breakfast And Sweets</h3>
+                                <p class="lead text-muted fw-normal">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+                            <img src="./assets/images/facility-4.jpeg" class="img-fluid w-50 mb-3" alt="Ready To Go Coffee">
+                                <h3 class="fs-3">Ready To Go Coffee</h3>
+                                <p class="lead text-muted fw-normal">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                    elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="PopularMenu py-5" id="Menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4 text-center">
+                        <figure>
+                            <img src="./assets/images/heading-img.jpeg" class="img-fluid" alt="heading logo">
+                        </figure>
+                        <h2 class="fw-bold display-6">Popular Menu</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 text-center">
+                        <img src="./assets/images/menu-1.jpeg" class="img-fluid mb-3" alt="Classic Espresso">
+                        <h4 class="text-muted fw-bold">Classic Espresso - ₹80</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 text-center">
+                        <img src="./assets/images/menu-2.jpeg" class="img-fluid mb-3" alt="Caramel Latte">
+                        <h4 class="text-muted fw-bold">Caramel Latte - ₹120</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 text-center">
+                        <img src="./assets/images/menu-3.jpeg" class="img-fluid mb-3" alt="Mocha Magic">
+                        <h4 class="text-muted fw-bold">Mocha Magic - ₹100</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 text-center">
+                        <img src="./assets/images/menu-4.jpeg" class="img-fluid mb-3" alt="Vanilla Frappé">
+                        <h4 class="text-muted fw-bold">Vanilla Frappé - ₹140</h4>
+                    </div>
+                    <div class="col-12  col-sm-12 col-md-6 col-lg-4 mb-4 text-center">
+                        <img src="./assets/images/menu-5.jpeg" class="img-fluid mb-3" alt="Cold Brew Bliss">
+                        <h4 class="text-muted fw-bold">Cold Brew Bliss - ₹110</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 text-center">
+                        <img src="./assets/images/menu-6.jpeg" class="img-fluid mb-3" alt="Hazelnut Cappuccino">
+                        <h4 class="text-muted fw-bold">Hazelnut Cappuccino - ₹130</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="OurGallery py-5" id="Gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4 text-center">
+                        <figure>
+                            <img src="./assets/images/heading-img.jpeg" class="img-fluid" alt="heading logo">
+                        </figure>
+                        <h2 class="fw-bold display-6">Our Gallery</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="./assets/images/gallery-1.jpeg" class="img-fluid " alt="Hot Sip">
+                    </div>
+                    <div class=" col-sm-12 col-md-6 col-lg-4 ">
+                        <img src="./assets/images/gallery-2.jpeg" class="img-fluid " alt="Cappuccino">
+                    </div>
+                    <div class=" col-sm-12 col-md-6 col-lg-4">
+                        <img src="./assets/images/gallery-3.jpeg" class="img-fluid " alt="icecream Coffee">
+
+                    </div>
+                    <div class=" col-sm-12 col-md-6 col-lg-4 ">
+                        <img src="./assets/images/gallery-4.jpeg" class="img-fluid " alt="enrich Coffee beans">
+                    </div>
+                    <div class="  col-sm-12 col-md-6 col-lg-4">
+                        <img src="./assets/images/gallery-5.jpeg" class="img-fluid " alt="coffee bliss">
+                    </div>
+                    <div class=" col-sm-12 col-md-6 col-lg-4 ">
+                        <img src="./assets/images/gallery-6.jpeg" class="img-fluid " alt="natural sugar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ourTeam py-5" id="Team">
+            <div class="container">
+                <div class="row mb-4 text-center">
+                    <div class="col">
+                        <img src="./assets/images/heading-img.jpeg" class="img-fluid mb-3" alt="">
+                        <h2 class="fw-bold display-6">Our Team</h2>
+                    </div>
+                </div>
+
+                <div class="row g-4"> <!-- 4. row 2 -->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                        <img src="./assets/images/team-1.jpeg" alt="Team 1" class="img-fluid mb-3">
+                        <h4 class="fw-bold">John Deo</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                        <img src="./assets/images/team-2.jpeg" alt="Team 2" class="img-fluid mb-3">
+                        <h4 class="fw-bold">Johnny</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                        <img src="./assets/images/team-3.jpeg" alt="Team 3" class="img-fluid mb-3">
+                        <h4 class="fw-bold">Gwen</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                        <img src="./assets/images/team-4.jpeg" alt="Team 4" class="img-fluid mb-3">
+                        <h4 class="fw-bold">Jack</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                        <img src="./assets/images/team-5.jpeg" alt="Team 5" class="img-fluid mb-3">
+                        <h4 class="fw-bold">Lucy</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                        <img src="./assets/images/team-6.jpeg" alt="Team 6" class="img-fluid mb-3">
+                        <h4 class="fw-bold">Ben</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contacts py-5 bg-white">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0"> <!--column1 -->
+                        <img src="assets/images/contact-img.jpeg" alt="About Us" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 text-center"> <!-- column2 -->
+                        <form class="text-center p-5 border border-dark">
+                            <h3 class="fw-normal display-4 mb-3">book a Table</h3>
+                            <div class="mb-3">
+                                <input type="text" class="form-control py-3 fs-5" placeholder="Enter your Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control py-3 fs-5" placeholder="Enter your Number">
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control py-3 fs-5" placeholder="How many Guests">
+                            </div>
+                            <button type="submit" class="btn btn-icon btn-lg">Send Message</button>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="row text-center py-3 " id="Contact">
+                    <div class="col-12 col-md-6 col-lg-3 text-center ">
+                        <!--column1 -->
+                        <i class="fa-solid fa-envelope display-6 mb-3 p-4 rounded-circle bg-icon text-white"></i>
+                        <h3>our Email</h3>
+                        <p class="lead text-muted fw-normal">shaakshi@gmail.com</p>
+                        <p class="lead text-muted fw-normal">HyHy@gmail.com</p>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 text-center ">
+                        <!--column1 -->
+                        <i class="fa-solid fa-clock display-6 mb-3 p-4 rounded-circle bg-icon text-white"></i>
+                        <h3>opening Hours</h3>
+                        <p class="lead text-muted fw-normal">07:00am to 09:00pm</p>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 text-center ">
+                        <!--column1 -->
+                        <i class="fa-solid fa-location-dot display-6 mb-3 p-4 rounded-circle bg-icon text-white"></i>
+                        <h3>shop Location</h3>
+                        <p class="lead text-muted fw-normal">mumbai, india- 400101</p>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 text-center ">
+                        <!--column1 -->
+                        <i class="fa-solid fa-phone display-6 mb-3 p-4 rounded-circle bg-icon text-white"></i>
+                        <h3>our Number</h3>
+                        <p class="lead text-muted fw-normal">+91-123-456-7890</p>
+                        <p class="lead text-muted fw-normal">+91-123-456-7890</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights py-3 border-top">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 text-center"> <!--column1 -->
+                        <p class="lead text-dark fw-normal">© copyright @ 2025 by <span class="text-brown fw-bold">mr.
+                                web designer</span> | all rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <button id="scrollTopBtn" class="btn btn-icon position-fixed rounded-circle bottom-0 end-0 d-none m-4 z-3">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="./scroll.js"></script>
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 body {
-  font-family:var(--ffPrimary);
+  font-family: var(--ffPrimary);
   background-color: var(--tertiaryColor);
   color: var(--secondaryColor);
   line-height: 1.6;
@@ -10,6 +10,7 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
+
 :root {
   --primaryColor: #97682f;
   --secondaryColor: #000000;
@@ -19,32 +20,57 @@ body {
   --ffTertiary: "Merienda", cursive;
 
 }
-h1,h2 {
+
+h1,
+h2 {
   font-family: var(--ffTertiary);
 }
-h3,h4 {
+
+h3,
+h4 {
   font-family: var(--ffSecondary);
 }
+
 p {
   font-family: var(--ffPrimary);
 }
+
 .heroSection {
-  background: url('assets/images/hero-section.jpeg') center center / cover no-repeat ;
+  background: url('assets/images/hero-section.jpeg') center center / cover no-repeat;
   min-height: 100vh;
 }
-.text-brown{
+
+.text-brown {
   color: var(--primaryColor);
 }
-.bg-icon{
-  background-color:var(--primaryColor);
+
+.bg-icon {
+  background-color: var(--primaryColor);
 }
-.btn-icon{
-  background-color:var(--primaryColor);
+
+.btn-icon {
+  background-color: var(--primaryColor);
   color: var(--tertiaryColor);
+  padding: 0.5rem 1.5rem;
 }
-.btn-icon:hover{
-  background-color:var(--secondaryColor);
+
+.btn-icon:hover {
+  background-color: var(--secondaryColor);
   color: var(--tertiaryColor);
 }
 
+.para{
+  font-size: 1.3rem;
+}
 
+@media (max-width: 576px) {
+  .heading-img {
+    height: 40px;
+  }
+  .para{
+    font-size: 1rem;
+  }
+  .btn-icon {
+    padding: 0.3rem 1rem;
+  }
+}
